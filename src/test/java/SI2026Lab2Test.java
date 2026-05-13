@@ -15,7 +15,6 @@ public class SI2026Lab2Test {
 
         library.addBook(b1);
         library.addBook(b2);
-
         assertThrows(IllegalArgumentException.class,
                 () -> library.searchBookByTitle(""));
 
